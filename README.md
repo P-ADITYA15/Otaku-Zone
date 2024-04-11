@@ -1,35 +1,37 @@
-# Otaku-Zone
+# Otaku Zone
 
-Running Otaku Zone Locally
-Follow these steps to run the Otaku Zone web app on your local machine:
+## Running Otaku Zone Locally
 
-Download the Code:
+To run the Otaku Zone web app locally on your machine, follow these steps:
 
-Click on the green "Code" button and select "Download ZIP."
-Extract the downloaded ZIP file to a location on your computer.
-Install XAMPP:
+1. **Download the Application:**
+   - Visit the GitHub repository for Otaku Zone.
+   - Click on the green "Code" button and select "Download ZIP".
+   - Once downloaded, extract the ZIP file to your desired location.
 
-Download and install XAMPP from here.
-Start the Apache and MySQL services in the XAMPP control panel.
-Import the Database:
+2. **Install XAMPP:**
+   - Download and install XAMPP from [here](https://www.apachefriends.org/index.html).
+   - Start the Apache and MySQL services in the XAMPP control panel.
 
-Open phpMyAdmin by visiting http://localhost/phpmyadmin/.
-Log in (default username is "root" with no password).
-Import the chatroom.sql file located in the "database" folder of the extracted repository.
-Move the Files:
+3. **Import the Database:**
+   - Open phpMyAdmin by visiting http://localhost/phpmyadmin/.
+   - Log in (default username is "root" with no password).
+   - Import the `chatroom.sql` file located in the "database" folder of the extracted repository.
 
-Move the extracted folder to xampp/htdocs/ (Windows) or /Applications/XAMPP/htdocs/ (macOS).
-Configure Database Connection:
+4. **Move the Files:**
+   - Move the extracted folder to `xampp/htdocs/` (Windows) or `/Applications/XAMPP/htdocs/` (macOS).
 
-Open dbconnect.php in the extracted folder and update the database connection details.
-Access the Web App:
+5. **Configure Database Connection:**
+   - Open `dbconnect.php` in the extracted folder and update the database connection details.
 
-Open your web browser and go to localhost/<foldername> or localhost/<foldername>/main.php.
-Use "admin@123" as the default password if prompted.
+6. **Access the Web App:**
+   - Open your web browser and go to `localhost/<foldername>` or `localhost/<foldername>/main.php`.
+   - Use "admin@123" as the default password if prompted.
+
 Now you can enjoy chatting anonymously and staying updated with the latest anime news on Otaku Zone!
 
 
-Otaku Zone
+#Features
 
 Otaku Zone is a web application designed for anime enthusiasts to connect, chat, and stay updated with the latest anime news. Built using PHP and SQL database, Otaku Zone offers two main features:
 
