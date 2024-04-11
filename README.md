@@ -33,7 +33,7 @@ Now you can enjoy chatting anonymously and staying updated with the latest anime
 
 
 
-# Features
+## Features
 
 Otaku Zone is a web application designed for anime enthusiasts to connect, chat, and stay updated with the latest anime news. Built using PHP and SQL database, Otaku Zone offers two main features:
 
